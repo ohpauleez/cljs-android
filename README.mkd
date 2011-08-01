@@ -11,6 +11,13 @@ Longer term goals include:
 
 Compile with `script/compile` and place the resulting script in SL4A's `scripts` directory
 
+## Example
+
+    (defn ^:export greet[]
+      (let [droid (Android.)]
+        (.makeToast droid "Hello World")))
+    (greet)   
+
 ## License
 
 Copyright (C) 2011 Paul deGrandis
