@@ -1,0 +1,7 @@
+#!/bin/sh
+
+#cljsc src > cljs-android.js
+#cljsc src '{:pretty-print true :output-dir "out" :output-to "cljs-android.js" :externs src/cljs_android/android.js :libs ["src/cljs_android/android.js"]}'
+cljsc src '{:optimizations :simple :pretty-print true :output-dir "out" :output-to "cljs-android.js" :externs src/cljs_android/android.js :libs ["src/cljs_android/android.js"]}'
+#cljsc src '{:optimizations :advanced :pretty-print true :output-dir "out" :output-to "cljs-android.js" :externs src/cljs_android/android.js :libs ["src/cljs_android/android.js"]}'
+

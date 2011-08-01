@@ -1,0 +1,19 @@
+# cljs-android
+
+This is the necessary tooling to run ClojureScript as an SL4A application on Android devices
+
+Longer term goals include:
+
+* Better wrapping of the Android RPC layer
+* Fully implemented in ClojureScript
+
+## Usage
+
+Compile with `script/compile` and place the resulting script in SL4A's `scripts` directory
+
+## License
+
+Copyright (C) 2011 Paul deGrandis
+
+Distributed under the Eclipse Public License, the same as Clojure. (Which is compatible with Apache 2)
+

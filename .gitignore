@@ -1,0 +1,31 @@
+# Java related
+pom.xml
+*jar
+*.class
+
+# Leiningen
+/classes/
+/lib/
+.lein-deps-sum
+
+# Clojurescript compilation
+/out/
+cljs-android.js
+
+# Temp Files
+*.orig
+*~
+.*.swp
+.*.swo
+*.tmp
+
+# OS X
+.DS_Store
+
+# Logging
+*.log
+
+# Docs
+/autodoc/
+/docs/
+
